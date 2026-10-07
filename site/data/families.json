@@ -1,0 +1,89 @@
+{
+  "_readme": "Seed data for the site. Generations and relationships below are PLACEHOLDERS - edit them to match the real family. generation: 1 = eldest. parents/partner use member ids.",
+  "families": [
+    {
+      "id": "samra",
+      "name": "Samra Family",
+      "motto": "Where we come from, in our own words.",
+      "members": [
+        {
+          "id": "harjinder-samra",
+          "name": "Harjinder Samra",
+          "generation": 1,
+          "partner": "kalbir-samra",
+          "parents": [],
+          "born": "",
+          "place": "",
+          "tagline": "",
+          "bio": ""
+        },
+        {
+          "id": "kalbir-samra",
+          "name": "Kalbir Samra",
+          "generation": 1,
+          "partner": "harjinder-samra",
+          "parents": [],
+          "born": "",
+          "place": "",
+          "tagline": "",
+          "bio": ""
+        },
+        {
+          "id": "pravinder-samra",
+          "name": "Pravinder Samra",
+          "generation": 2,
+          "partner": "vanessa-samra",
+          "parents": ["harjinder-samra", "kalbir-samra"],
+          "born": "",
+          "place": "",
+          "tagline": "",
+          "bio": ""
+        },
+        {
+          "id": "vanessa-samra",
+          "name": "Vanessa Samra",
+          "generation": 2,
+          "partner": "pravinder-samra",
+          "parents": [],
+          "born": "",
+          "place": "",
+          "tagline": "",
+          "bio": ""
+        },
+        {
+          "id": "praveen-samra",
+          "name": "Praveen Samra",
+          "generation": 2,
+          "partner": "",
+          "parents": ["harjinder-samra", "kalbir-samra"],
+          "born": "",
+          "place": "",
+          "tagline": "",
+          "bio": ""
+        },
+        {
+          "id": "sundeep-samra",
+          "name": "Sundeep Samra",
+          "generation": 2,
+          "partner": "",
+          "parents": ["harjinder-samra", "kalbir-samra"],
+          "born": "",
+          "place": "",
+          "tagline": "",
+          "bio": ""
+        },
+        {
+          "id": "delilah-samra",
+          "name": "Delilah Samra",
+          "generation": 3,
+          "partner": "",
+          "parents": ["pravinder-samra", "vanessa-samra"],
+          "born": "",
+          "place": "",
+          "tagline": "",
+          "bio": ""
+        }
+      ]
+    }
+  ]
+}
